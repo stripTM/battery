@@ -1,0 +1,43 @@
+      #titulo {
+        font-size: 1.5em;
+
+        margin: auto;
+        top: 50%;
+        transition-property: transform;
+        transition-duration: 1s;
+      }
+      .seleccionado {
+        transform: rotate(360deg);
+      }
+
+      #grafica {
+        width: 100%;
+        height: 300px;
+        display: block;
+        border: 1px solid red;
+        background: #232323;
+      }
+      svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 1px dotted green;
+        
+      }
+      polygon {
+        width: 100%;
+        height: 100%;
+        fill: #1b4233;
+        stroke: #1c7d59;
+        stroke-width: 0.5;
+        /* Rayas #232323 y #284d3e*/
+      }
+      circle {
+        fill: #232323;
+        stroke: #1c7d59;
+        stroke-width: 0.5;
+      }
+      video {
+        width: 100px;
+        height: 200px;
+      }

@@ -1,0 +1,26 @@
+{
+  "name": "Battery", 
+  "default_locale": "en-US", 
+  "icons": {
+    "128": "/style/icons/battery.png"
+  }, 
+  "description": "Battery status", 
+  "launch_path": "/index.html", 
+  "appcache_path": "/index.appcache",
+  "permissions": {
+    "telephony": {
+      "description": "Required for autocompletion in the share screen",
+      "access": "readwrite"
+    }
+  },
+  "locales": {
+    "es": {
+      "name": "Battery", 
+      "description": "Info of mobile battery"
+    }
+  }, 
+  "developer": {
+    "url": "http://striptm.com/", 
+    "name": "strip TM"
+  }
+}
